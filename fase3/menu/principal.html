@@ -12,24 +12,32 @@
 <body>
     <div id="contenedor">
         <header>
-			<img src="../imagenes/logo_unad.jpg"  alt="header">
+			<img src="../imagenes/logo_unad-min.jpg"  alt="header">
 		</header>
         <nav>
 			<ul>
 				<li> 
-					<a href="../menu/principal.html">Actividad Fase 3</a>
+					<a href="../index.html">Actividad Fase 3</a>
 				</li>
                 <li> 
 					<a href="../menu/principal.html">Inicio</a>
 				</li>
-				<li> 
-					<a href="../menu/lecturas.html">Temas</a>
+				<li><a href="../menu/lecturas.html">Temas</a>
+                    <ul >
+                        <li><a href="../menu/lecturas2.html">Tema2</a></li>
+                    </ul>
 				</li>
 				<li> 
 					<a href="../menu/multimedia.html">Recursos Digitales</a>
+                    <ul>
+                        <li><a href="../menu/multimedia2.html">Recursos Digitales 2</a></li>
+                    </ul>
 				</li>
 				<li> 
 					<a href="../menu/actividades.html">Aprendizaje</a>
+                    <ul>
+                        <li><a href="#">Aprendizaje 2</a></li>
+                    </ul>
 				</li>
 				<li>
 					<a href="../menu/autores.html">Acerca de</a>
@@ -46,7 +54,8 @@
                 de la página web. De igual forma se aplicaron estilos mediante CSS3 para definir la presentación.
             </p>
 
-			<article>
+			<article class="contenido">
+                <img src="../imagenes/html5_logo-min.png" alt="article">
                 <h3>HTML5</h3>
 				<p>El lenguaje HTML (hypertext markup language) es el lenguaje con el que se definen páginas Web.
                      Permite describir el contenido de una página, incluyendo texto y otros elementos (imágenes, vídeo, otros documentos, etc.). 
@@ -62,6 +71,7 @@
                 </p>
             </article>
             <article>
+                <img src="../imagenes/logo css3-min.png" alt="article">
                 <h3>CSS3</h3>
 				<p>Las CSS (coding style sheets) u hojas de estilo en cascada son los archivos responsables de definir la apariencia de una página web. 
                     Facilitan la gestión y la apariencia corporativa de un sitio web, ya que todas las páginas de un sitio pueden compartir la misma hoja
@@ -77,7 +87,7 @@
                   
                 </p>
             </article>
-            <article>
+            <article class="referencias">
                 <h3>Refeencias</h3>
 				<p>Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA Editorial. 
                     Recuperado de.
@@ -115,8 +125,15 @@
                 href="https://www.unad.edu.co/" 
                 data-width="260"
                 data-height="30"
-                target="blank"><img src="../imagenes/logo unad.PNG"> 
+                target="blank"><img src="../imagenes/logo unad-min.PNG"> 
             </a>
+            <h2>e-Biblioteca</h2>
+            <div class="boton"> 
+                <a href="https://elibro.net/" 
+                target="_blank"> <img src="../imagenes/biblioteca-min.png" alt="e-Biblioteca"> </a> 
+             
+             </a>
+            </div>
 
         </aside>
 
