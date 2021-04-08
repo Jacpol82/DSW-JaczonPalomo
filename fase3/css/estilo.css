@@ -93,12 +93,17 @@ h3{
 
 h6{
 	font-family: arial;
-	font-size: 14px;
+	font-size: 18px;
 	color: #FFFFFF;
-	text-align:left;
+	text-align: center;
+	margin: 20px;
 }
 
-
+.audio{
+	background: #e23004;
+	padding: 60px 300px;
+	border-radius: 6px
+}
 
 section{
 	width: 870px;
@@ -188,9 +193,9 @@ aside a img {
 
 
 footer{
-	width: 1200px;
+	width: 1190px;
 	height: 100px;
-	background: #d80326;
+	background: #e23004;
 	border-radius: 10px;
 	margin: 20px 0 20px 0;
     border: solid;
