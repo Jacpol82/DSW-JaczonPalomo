@@ -55,7 +55,11 @@ nav li:hover > ul {
 	display: block;
 }
 nav li a:hover {
-	background-color: rgb(7, 1, 31);
+	background-color:#e23004;
+	border-radius: 20px;
+	margin-top: 10px;
+	border: solid;
+	color: #ffffff; 
 }
 p {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
