@@ -119,6 +119,19 @@ section{
 	padding: 10px;
 	
 }
+.layout{
+	width: 340px;
+	height: 460px;
+	border-radius: 10px;
+	margin:0px 60px 10px 460px;
+    border: solid;
+	color: #013149; 
+    
+}
+
+.layout img{
+	margin: 0px 10px 0px 10px;
+}
 
 article img{
 	margin: 0;
