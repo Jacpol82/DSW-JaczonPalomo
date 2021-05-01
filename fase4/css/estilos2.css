@@ -29,6 +29,17 @@ body{
 	height: 120px;
 	border-radius: 20px;
 }
+.im-logo{
+	overflow:auto;
+	position:relative;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	background: #013149;
+	margin-top: 10px;
+	height: 120px;
+	border-radius: 20px;
+}
 
 h1{
 	background: #f18b04;
@@ -40,27 +51,28 @@ h1{
 	color: #013149;
 }
 .cuestionario{
-	
-	background: #FFFFFF;
+	overflow:auto;
+	background: #ffffff;
 	margin: 10px 0px 10px 0px;
 	border-radius: 10px;
 	padding: 10px;
+	position:relative;
+	width: 100%;
 }
 .aside{
-	
+	overflow:auto;
 	background: #FFFFFF;
 	margin-top: 10px;
 	border-radius: 10px;
 	padding: 10px;
 	height: 1050px;
+	position:relative;
 }
 .aside img{
 	padding:"0px";
 }
 
-.fb-page{
-	height: 600;
-}
+
 #twitter-timeline{
 	height: 400;
 }
@@ -72,4 +84,7 @@ h1{
     overflow:hidden;
 	text-align: center;
  }
-
+ .form{
+	 display: block;
+	 
+ }

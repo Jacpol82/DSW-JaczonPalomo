@@ -3,8 +3,9 @@
 	padding: 0;
 }
 #contenedor{
+	display: block;
 	width: 1200px;
-	margin: auto;
+	margin:auto;
 	margin-top: 20px;
 	overflow: hidden;
 	margin-bottom: 20px;
