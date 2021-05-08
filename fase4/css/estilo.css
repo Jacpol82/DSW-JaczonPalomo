@@ -3,7 +3,7 @@
 	padding: 0;
 }
 #contenedor{
-	display: block;
+	display: block ;
 	width: 1200px;
 	margin:auto;
 	margin-top: 20px;
@@ -128,6 +128,14 @@ section{
     border: solid;
 	color: #013149; 
     
+}
+.seo{
+	width: 240px;
+	height:110px;
+}
+.media{
+	width: 240px;
+	height:110px;
 }
 
 .layout img{
